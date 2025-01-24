@@ -1,7 +1,5 @@
 # GlassFish Server
 
-___
-
 ## Requirements
 
 - OpenJDK 21.0.5 2024-10-15 LTS (Temurin)
