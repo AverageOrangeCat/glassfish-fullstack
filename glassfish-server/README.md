@@ -21,4 +21,10 @@ Download Eclipse GlassFish 7.0.21, Jakarta EE Platform, 10
 wget 'https://www.eclipse.org/downloads/download.php?file=/ee4j/glassfish/glassfish-7.0.21.zip&r=1'
 ```
 
+and unzip it
+
+``` shell
+unzip 'https://www.eclipse.org/downloads/download.php?file=/ee4j/glassfish/glassfish-7.0.21.zip&r=1'
+```
+
 From this point follow the README.txt of the Eclipse GlassFish
