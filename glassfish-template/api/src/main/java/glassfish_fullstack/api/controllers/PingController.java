@@ -8,7 +8,7 @@ public class PingController {
 
     @GET
     public String ping() {
-        return "Pong!";
+        return "Pong";
     }
 
 }

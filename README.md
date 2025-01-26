@@ -8,7 +8,7 @@
 > [!TIP]
 > Use [sdkman](https://sdkman.io/), managing different JDK versions the easy way
 
-## Goals
+## Project Goals
 
 - [x] Document the installation process
 - [x] Setup template project based the onion architecture
