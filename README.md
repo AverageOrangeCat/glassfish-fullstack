@@ -13,6 +13,6 @@
 
 - [x] Document the installation process
 - [x] Setup template project based the onion architecture
-- [ ] Setup database integration
+- [x] Setup database integration
 - [ ] Setup unit tests
 - [ ] Standardize deployment

@@ -1,0 +1,166 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2025-01-29T20:07:31.873Z",
+  "__export_source": "insomnia.desktop.app:v2023.5.8",
+  "resources": [
+    {
+      "_id": "req_b686e6876efb43d98660f8be36fdd49c",
+      "parentId": "wrk_0a857600d67f4fd4944dce4c3996b449",
+      "modified": 1738180403571,
+      "created": 1738180360777,
+      "url": "http://localhost:8080/api/messages",
+      "name": "/api/messages",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnia/2023.5.8"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1738180376008,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_0a857600d67f4fd4944dce4c3996b449",
+      "parentId": null,
+      "modified": 1738180357194,
+      "created": 1738180357194,
+      "name": "GlassFish Fullstack",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_c23241a3e80d41eebedfd0a9ee86f71a",
+      "parentId": "wrk_0a857600d67f4fd4944dce4c3996b449",
+      "modified": 1738180434347,
+      "created": 1738180375908,
+      "url": "http://localhost:8080/api/message",
+      "name": "/api/message",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\t\"context\": \"hello?\",\n\t\t\"username\": \"bob\"\n}\n"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/2023.5.8"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1738180375908,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_1f09f2569bd84b1d962e556d56db96fc",
+      "parentId": "wrk_0a857600d67f4fd4944dce4c3996b449",
+      "modified": 1738181212495,
+      "created": 1738180449054,
+      "url": "http://localhost:8080/api/message/1",
+      "name": "/api/message/{id}",
+      "description": "",
+      "method": "PUT",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\t\"context\": \"hello everyone\",\n\t\t\"username\": \"bob\"\n}\n"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/2023.5.8"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1738180375808,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_25a9f6ef64f74a84991caec668656f80",
+      "parentId": "wrk_0a857600d67f4fd4944dce4c3996b449",
+      "modified": 1738180544072,
+      "created": 1738180515296,
+      "url": "http://localhost:8080/api/message/2",
+      "name": "/api/message/{id}",
+      "description": "",
+      "method": "DELETE",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnia/2023.5.8"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1738180375708,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "env_2722c06fbc7a783638e76133af200c8202fd8b97",
+      "parentId": "wrk_0a857600d67f4fd4944dce4c3996b449",
+      "modified": 1738180357197,
+      "created": 1738180357197,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1738180357197,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_2722c06fbc7a783638e76133af200c8202fd8b97",
+      "parentId": "wrk_0a857600d67f4fd4944dce4c3996b449",
+      "modified": 1738180357198,
+      "created": 1738180357198,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    }
+  ]
+}

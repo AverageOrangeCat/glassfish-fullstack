@@ -117,9 +117,8 @@ public class MessageRepositoryImpl implements MessageRepository {
 
             statement = connection.prepareStatement("""
                 UPDATE "messages"
-                    SET "username" = ?
-                    SET "context" = ?
-                WHERE "id" = ?
+                SET "username" = ?, "context" = ?
+                WHERE "id" = ?;
             """);
 
             statement.setString(1, messageDto.getUsername());
