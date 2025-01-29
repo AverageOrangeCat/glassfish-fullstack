@@ -32,8 +32,7 @@ public class MessageBo {
         this.context = context;
     }
 
-    public MessageBo() {
-    }
+    public MessageBo() {}
 
     private MessageBo(Builder builder) {
         this.id = builder.id;

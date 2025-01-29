@@ -19,13 +19,23 @@ public class MessageServiceImpl implements MessageService {
     public List<MessageDto> getMessages() {
         return this.messageRepository.getMessages()
             .stream()
-            .map(MessageDto::from)
+            .map(messageBo -> {
+                MessageDto messageDto = new MessageDto();
+
+                messageDto.setId(messageBo.getId());
+
+                messageDto.setUsername(messageBo.getUsername());
+
+                messageDto.setContext(messageBo.getContext());
+
+                return messageDto;
+            })
             .collect(Collectors.toList());
     }
 
     @Override
-    public void createMessage(Long id, MessageDto messageDto) {
-        this.messageRepository.createMessage(id, messageDto);
+    public void createMessage(MessageDto messageDto) {
+        this.messageRepository.createMessage(messageDto);
     }
 
     @Override

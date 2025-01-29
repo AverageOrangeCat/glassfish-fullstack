@@ -6,7 +6,7 @@ public interface MessageService {
 
     public List<MessageDto> getMessages();
 
-    public void createMessage(Long id, MessageDto messageDto);
+    public void createMessage(MessageDto messageDto);
 
     public void updateMessage(Long id, MessageDto messageDto);
 

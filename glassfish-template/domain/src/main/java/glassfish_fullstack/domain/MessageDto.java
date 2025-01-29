@@ -32,20 +32,7 @@ public class MessageDto {
         this.context = context;
     }
 
-    public static MessageDto from(MessageBo messageBo) {
-        MessageDto messageDto = new MessageDto();
-
-        messageDto.setId(messageBo.getId());
-
-        messageDto.setUsername(messageBo.getUsername());
-
-        messageDto.setContext(messageBo.getContext());
-
-        return messageDto;
-    }
-
-    public MessageDto() {
-    }
+    public MessageDto() {}
 
     private MessageDto(Builder builder) {
         this.id = builder.id;
