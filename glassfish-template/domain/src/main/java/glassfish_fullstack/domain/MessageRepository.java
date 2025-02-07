@@ -4,12 +4,12 @@ import java.util.List;
 
 public interface MessageRepository {
 
-    public List<MessageBo> getMessages();
+    List<MessageBo> getMessages();
 
-    public void createMessage(MessageDto messageDto);
+    void createMessage(MessageDto messageDto);
 
-    public void updateMessage(Long id, MessageDto messageDto);
+    void updateMessage(Long id, MessageDto messageDto);
 
-    public void deleteMessage(Long id);
+    void deleteMessage(Long id);
 
 }
