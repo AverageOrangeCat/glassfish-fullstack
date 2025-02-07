@@ -3,12 +3,7 @@
 <resources>
     <jdbc-connection-pool
         name="glassfish-database-pool"
-        res-type="javax.sql.DataSource"
         datasource-classname="org.postgresql.ds.PGSimpleDataSource"
-        pool-resize-quantity="1"
-        steady-pool-size="1"
-        max-pool-size="5"
-        statement-timeout-in-seconds="60"
     >
         <property name="serverName" value="localhost" />
         <property name="portNumber" value="5432" />
